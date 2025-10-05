@@ -1,0 +1,28 @@
+.{
+    .name = .vita,
+    .version = "0.0.0",
+    .fingerprint = 0x59f03dcfb1abe084,
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .@"vita-headers" = .{
+            .url = "git+https://github.com/vitasdk/vita-headers#a6f389485e88c68c2afedd4080e101b1b6fd08ab",
+            .hash = "N-V-__8AAIMPGwAxXpwXRVgjM0x3jwNxbmcSz951jIN7FsYB",
+        },
+        // TODO: make this lazy
+        .stubs_build_gen = .{
+            .path = "tools/stubs_build_gen",
+        },
+        .vita_toolchain = .{
+            .url = "git+https://github.com/vita-zig/vita-toolchain.git#5ad5165e411d53577cf8fda98a2eaa9dd7e57a9c",
+            .hash = "vita_toolchain-0.0.0-TeTlA7PvAADYbYgzeo_XbJy1GJau59CORqWMomUkAFhS",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "build",
+        "src",
+        "tools",
+    },
+}

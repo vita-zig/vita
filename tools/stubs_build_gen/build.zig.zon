@@ -1,0 +1,18 @@
+.{
+    .name = .stubs_build_gen,
+    .version = "0.0.0",
+    .fingerprint = 0x88a56bfb5ae78daf,
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .tree_sitter = .{
+            .url = "https://github.com/neurocyte/tree-sitter/releases/download/master-af8fddd21cc54cb926b6f5dadc5de39c6ac44e8a/source.tar.gz",
+            .hash = "tree_sitter-0.22.4-150-g7e3f5726-z0LhyFPlripdO8wKSeLT2cqtQo_PQnNS3Wi5UUHIpOQu",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
