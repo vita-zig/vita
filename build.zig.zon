@@ -13,8 +13,8 @@
             .path = "tools/stubs_build_gen",
         },
         .vita_toolchain = .{
-            .url = "git+https://github.com/vita-zig/vita-toolchain.git#5ad5165e411d53577cf8fda98a2eaa9dd7e57a9c",
-            .hash = "vita_toolchain-0.0.0-TeTlA7PvAADYbYgzeo_XbJy1GJau59CORqWMomUkAFhS",
+            .url = "git+https://github.com/vita-zig/vita-toolchain.git#776f678951c208ac15540e993f97c65a487e4b20",
+            .hash = "vita_toolchain-0.0.0-TeTlA2fvAABNLkYRxHzvbb0uoP9Whbxnstnd1ODeCz3r",
         },
     },
 
